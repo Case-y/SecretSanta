@@ -105,6 +105,7 @@ def pairings(names, *santa_overlords):
 
 	print("Overall pairings:\n")
 	print_holiday_dict(pairs)
+	print("Enjoy Christmas!")
 	return pairs
 
 def print_holiday_dict(pairings):

@@ -42,7 +42,7 @@ def pairing(names):
 
 			print("Here are your secret santas and the receivers.")
 			print("")
-			
+
 			check_repeats(pair)
 
 			for person, receiver in pair.items():
@@ -87,22 +87,6 @@ def recursion():
 
 recursion()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+def swag_casey():
+	"""Puts some swag in de file"""
+	pass

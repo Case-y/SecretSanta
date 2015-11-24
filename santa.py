@@ -87,6 +87,3 @@ def recursion():
 
 recursion()
 
-def swag_casey():
-	"""Puts some swag in de file"""
-	pass

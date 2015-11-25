@@ -99,9 +99,10 @@ def pairings(names, *santa_overlords):
 
 	# Printing everything out
 	for i in range(2):
-		print("Overlord", santa_overlords[i], "will assign the following:\n")
-		print_holiday_dict(overlord_books[i])
-		print("\n\n\n")
+		with open("Overlord_%s.txt" %santa_overlords[i], "w") as f:
+			f.write("Overlord " + santa_overlords[i] + " will assign the following:\n")
+			result = "\n".join([first + " gifts to " + overlord_books[i][first] + "!" for first in overlord_books[i]])
+			f.write(result)
 
 	print("Overall pairings:\n")
 	print_holiday_dict(pairs)
